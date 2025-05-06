@@ -7,7 +7,6 @@ const globalDataProvider = cache(async ({ lang }: { lang: string }) => {
     name: "PGPTA Builder",
     address: "Wigan",
     email: "support@puregymstudent.com",
-    pageTitle: context?.page?.title || "Untitled Page",
     social: {
       facebook: "https://www.facebook.com/",
       instagram: "https://www.instagram.com/c",
